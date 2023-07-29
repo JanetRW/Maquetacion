@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.padre{
+    border: rgb(193, 190, 192) 12px solid;
+    height:85vh;
+    width: 30vw;
+    border-radius: 14px;
+    margin:auto;
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    /* gap: 2px; */
+}
+
+    .Header{
+        border: rgb(165, 232, 199) 4px solid;
+        border-radius: 6px;
+        height: 12vh;
+        width: 95%;
+        display:flex;
+        margin:auto;
+        margin-bottom: 3px;
+        margin-top: 3px;
+        flex-direction:column;
+        font-family:Verdana;
+        padding-left: 6px;/*el texto Header vaya separado del borde del contenedor*/
+        /* justify-content:flex-start; */
+    }
+    .Nav{
+        border: rgb(217, 139, 152) 4px solid;
+        border-radius: 6px;
+        height: 4vh;
+        width: 95%;
+        display:flex;
+        margin:auto;
+        flex-direction:column;
+        font-family:Verdana;
+        padding: 8px 2px;
+        padding-left: 6px;
+
+    }
+    .contenedor1{
+        height:60vh;
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        font-family:Verdana;
+        padding: 3px 4px;
+
+        }
+            .Article{
+                flex: 1 1 auto;
+                border: rgb(86, 127, 225) 4px solid;
+                border-radius: 6px;
+                height: 55vh;
+                width: 70px;
+                display:flex;
+                flex-direction:column;
+                font-family:Verdana;
+                padding: 1px 1px;
+                margin-right:3px ;/*para separar con el contenedor Div*/
+                
+            }
+            .header{
+                border: rgb(165, 232, 199) 4px solid;
+                border-radius: 6px;
+                height: 4vh;
+                width: 92%;
+                display:flex;
+                margin:auto;
+                flex-direction:column;
+                font-family:Verdana;
+                padding: 10px 2px;
+                padding-left: 6px;
+
+        }
+        .contenedor2{
+            height:60vh;
+            width: 100%;
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-end;/*separa al header y Article hacia abajo */
+   
+        }
+            .section{
+   
+            border: rgb(147, 70, 224) 4px solid;
+            border-radius: 6px;
+            margin:2px;
+            padding:10px;
+            font-family:Verdana;
+            
+              }
+            .footer{
+   
+            border: rgb(235, 207, 175) 4px solid;
+            border-radius: 6px;
+            margin:2px;
+            font-family:Verdana;
+            padding-left: 10px;
+            }
+
+        .Div{
+        border: rgb(235, 207, 175) 4px solid;
+        border-radius: 6px;
+        height: 55vh;
+        width: 30%;
+        display:flex;
+        flex-direction:column;
+        font-family:Verdana;
+        margin-right:7px ;
+    }
+        .aside{
+            border: rgb(6, 255, 209) 4px solid;
+            border-radius: 6px;
+            height: 50vh;
+            width: 86%;
+            display:flex;
+            flex-direction:column;
+            font-family:Verdana;
+            margin:auto;
+            margin-bottom: 5px;
+            padding-left: 6px;
+        }
+
+    .Footer{
+   
+        border: rgb(235, 207, 175) 4px solid;
+        border-radius: 6px;
+        height: 5vh;
+        width: 94%;
+        margin:auto;
+        margin-bottom: 3px;
+        font-family:Verdana;
+        padding: 8px 2px;
+        padding-left: 10px;  
+    }
+
+
+
+
+
+
+
+

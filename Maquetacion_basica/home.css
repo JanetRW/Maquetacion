@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.padre{
+    /* border:2px solid rgb(174, 255, 0);
+    border-radius: 14px; */
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+ 
+}
+    .barra{
+        /* border: rgb(225, 97, 6) 4px solid;
+        border-radius: 6px; */
+        background-color: black;
+        height: 8vh;
+        width: 100%;
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content:space-evenly;
+        font-family:Verdana;
+    }
+        .textobarra a {
+        /* border: rgb(177, 6, 225) 4px solid;
+        border-radius: 6px;  */
+        text-decoration:none;
+        color:white;
+        padding: 15px 5px;
+        }
+
+    .contenedor1{
+        /* border: rgba(4, 162, 151, 0.927) 4px solid;
+        border-radius: 6px; */
+        height:91%;
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        padding: 3px 4px;
+        font-family:'Helvetica';
+    }
+            .bienvenido{
+                flex: 1 1 auto;
+                /* border: rgb(86, 127, 225) 4px solid;
+                border-radius: 6px; */
+                height: 75%;
+                width: 35%;
+                display:flex;
+                flex-direction:column;
+                /* justify-content: flex-end; */
+                padding: 1px 2px;
+                margin-right:4px ;
+                margin-left: 100px;
+                margin-top: 6%;
+                font-size: large;
+                
+                
+            }
+                .texto p{
+                /* border: rgb(165, 232, 199) 4px solid;
+                border-radius: 6px; */
+                /* height: 100%;
+                width: 100%; */
+                display:flex;
+                font-size:66%;
+                margin-top: 2%;
+                /* flex: 1 1 auto; */
+                justify-content: left;
+
+                
+        }
+
+        .foto{
+        /* border: rgb(235, 207, 175) 4px solid;
+        border-radius: 6px; */
+        height: 75%;
+        width: 35%;
+        display:flex;
+        flex-direction:row;
+        justify-content:left;
+        /* margin-right:35px ; */
+        margin-top: 6%;
+        padding-left: 3%;
+        
+
+    }
+
+      
+        
+      
