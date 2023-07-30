@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <title>Agencia de Viajes</title>
+</head>
+
+<body>
+    <main class="padre">
+        <nav class ="cabecera">
+            <h1>Exótica Travels</h1>
+        </nav>
+        <div class="contenedor1">
+            <section class="descripción">
+                <h2>Quiénes Somos</h2>
+                <p>Exótica Travels es un operador de viajes online creado por expertos del sector para ayudar a viajeros de
+                    todo el mundo a cumplir sus sueños.</p>
+            </section>
+
+            <section class="destinos">
+                <h2>Lugares más visitados o con ofertas</h2>
+                <div class="tarjetas">
+                    <div class="tarjeta1">
+                        <img src="imagenesviajes/imagen01.jpg" alt="Destino 1" class="imagen">
+                        <div class="texto">
+                        <h3>Palacios y desiertos de Rajastán--Desde 1399€!!</h3>
+                        <p>Oferta Flash:India en 13 Días, 11 Noches en Destino</p>
+                        <p>Una oportunidad para formar parte de la particular mezcla de personas, paisajes y tradiciones
+                            de la India, visitando sus lugares más emblemáticos, de la capital a Jaipur y, por supuesto,
+                            el cautivador Taj Mahal.</p>
+                        <a href="#">Ver más</a>
+                        </div>
+                    </div>
+                    <div class="tarjeta1">
+                        <img src="imagenesviajes/imagen02.jpg" alt="Destino 2" class="imagen">
+                        <div class="texto">
+                        <h3>Turquía Legendaria--Desde 699€!!</h3>
+                        <p>Oferta Flash:Turquía en 8 Días, 7 Noches en Destino.</p>
+                        <p>Déjate seducir por la legendaria Turquía paseando por las calles, bazares y soberbias
+                            mezquitas de Estambul, navegando por el Bósforo, asomándote a Ankara y descubriendo la
+                            mágica Capadocia.</p>
+                        <a href="#">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Formulario">
+                <h2>Formulario de Contacto</h2>
+                  <form id="contactForm">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+
+                    <label for="origen">Origen:</label>
+                    <input type="text" id="origen" required>
+
+                    <label for="destino">Destino:</label>
+                    <input type="text" id="destino" required>
+
+                    <label for="numPersonas">Número de personas:</label>
+                    <input type="number" id="numPersonas" required>
+
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" required>
+
+                    <button type="button" onclick="solicitar()">Solicitar Información</button>
+                    <button type="button" onclick="filtrar()">Filtrar</button>
+                </form>
+            </section>
+            <section class="filtrados">
+                <h2>Resultados Filtrados</h2>
+                <div id="datosFiltrados"></div>
+            </section>
+        </div>
+        <script src="home.js"></script>
+    </main>
+</body>
+
+</html>
