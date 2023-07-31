@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .padre{
-    border:5px solid rgb(174, 255, 0);
-    border-radius: 14px;
+    /* border:5px solid rgb(174, 255, 0);
+    border-radius: 14px; */
     width: 100%;
     height: 100%;
     display:flex;
@@ -19,8 +19,8 @@
   /*} */
   
     .cabecera {
-        border:2px solid rgb(0, 157, 255);
-        border-radius: 8px;
+        /* border:2px solid rgb(0, 157, 255);
+        border-radius: 8px; */
         background-color: #333;
         color: #fff;
         text-align: center;
@@ -28,8 +28,8 @@
         font-size: large;
     }
     .contenedor1{
-        border: rgba(162, 4, 94, 0.927) 4px solid;
-        border-radius: 6px;
+        /* border: rgba(162, 4, 94, 0.927) 4px solid;
+        border-radius: 6px; */
         height:100%;
         width: 100%;
         display:flex;
@@ -42,8 +42,8 @@
         }  */
         .descripción{
             flex: 1 1 auto;
-            border: rgb(86, 127, 225) 4px solid;
-            border-radius: 6px;
+            /* border: rgb(86, 127, 225) 4px solid;
+            border-radius: 6px; */
             height: 10vh;
             width: 90vw;
             display:flex;
@@ -61,8 +61,8 @@
           }
         .destinos{
             flex: 1 1 auto;
-            border: rgb(225, 86, 100) 4px solid;
-            border-radius: 6px;
+            /* border: rgb(225, 86, 100) 4px solid;
+            border-radius: 6px; */
             height: 70vh;
             width: 90vw;
             display:flex;
@@ -76,8 +76,8 @@
         }
             .tarjetas{
                     /* flex: 1 1 auto; */
-                    border: rgb(174, 255, 0) 4px solid;
-                    border-radius: 6px;
+                    /* border: rgb(174, 255, 0) 4px solid;
+                    border-radius: 6px; */
                     height: 92%;
                     width: 90vw;
                     display: flex;
@@ -85,8 +85,8 @@
                     /* align-items: flex-end;    */
                 }
                 .tarjeta1{
-                    border: rgba(253, 203, 5, 0.943) 4px solid;
-                    border-radius: 6px;
+                    /* border: rgba(253, 203, 5, 0.943) 4px solid;
+                    border-radius: 6px; */
                     height: 47%;
                     width: 35vw;
                     /* display:flex;*/
@@ -96,8 +96,8 @@
                     /* padding-left: 3%; */
                 }
                 .texto{
-                    border: rgba(5, 253, 195, 0.943) 4px solid;
-                    border-radius: 6px;
+                    /* border: rgba(5, 253, 195, 0.943) 4px solid;
+                    border-radius: 6px; */
                     height: 15vh;
                     width: 35vw;
                     /* display:flex;
@@ -113,8 +113,8 @@
         .Formulario{
             
                 flex: 1 1 auto;
-                border: rgba(10, 230, 47, 0.524) 4px solid;
-                border-radius: 6px;
+                /* border: rgba(10, 230, 47, 0.524) 4px solid;
+                border-radius: 6px; */
                 height: 60vh;
                 width: 90vw;
                 display:flex;
@@ -127,8 +127,8 @@
             }
  
             form {
-            border: rgb(36, 37, 40) 4px solid;
-            border-radius: 6px;
+            /* border: rgb(36, 37, 40) 4px solid;
+            border-radius: 6px; */
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1rem;
@@ -160,8 +160,8 @@
               }
         .filtrados{
             /* flex: 1 1 auto; */
-            border: rgb(234, 0, 255) 4px solid;
-            border-radius: 6px;                
+            /* border: rgb(234, 0, 255) 4px solid;
+            border-radius: 6px;                 */
             height: 70vh;
             width: 90vw;
             display:flex;
