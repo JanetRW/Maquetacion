@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.padre{
+    /* border:10px solid rgb(174, 255, 0);
+    border-radius: 14px; */
+    width: 100vw;
+    height: 150vh;
+    display:flex;
+    flex-direction: column;
+ 
+}
+.barra{
+    /* border: rgb(225, 97, 6) 4px solid;
+    border-radius: 6px; */
+    background-color: black;
+    height: 23vh;
+    width: 100vw;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+    font-family:Verdana;
+}
+    .textobarra a {
+    /* border: rgb(177, 6, 225) 4px solid;
+    border-radius: 6px;  */
+    text-decoration:none;
+    color:white;
+    padding: 15px 5px;
+    }
+    .logo{
+        /* border: rgb(6, 225, 39) 4px solid;
+        border-radius: 6px; */
+        height: 130%;
+        width: 40vw;
+        display:flex;
+        /* flex-direction:row; */
+        align-items: center;
+    justify-content:space-around;
+  
+    }
+   
+    .imagen{
+        margin-left: 30%;
+        height: 80%;
+        }
+        
+    .descripciontotal{
+        /* border:8px solid rgb(170, 20, 240);
+        border-radius: 14px; */
+        background-color:white;
+        width: 100%;
+        height: 200%;
+        display:flex;
+        flex-direction:column;
+        /* justify-content: space-around; */
+        
+        
+    }
+        .contenedorTexto{
+        /* border:8px solid rgb(200, 240, 20);
+        border-radius: 14px; */
+        width:100vw;
+        height:10%;
+        font-family: Verdana;
+       
+    
+        }
+            .titulo{
+                /* border:8px solid rgb(240, 20, 68);
+                border-radius: 14px; */
+                width: 90vw;
+                color:rgb(5, 240, 201);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 4vh;
+                text-align: center;
+                margin: auto;
+            }
+            .texto{
+                /* border:8px solid rgb(240, 20, 68);
+                border-radius: 14px; */
+                width: 90vw;
+                color:rgb(5, 240, 201);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 4vh;
+                text-align: center;
+                margin: auto;
+            }
+            
+        .cursos{
+            /* border:8px solid rgb(200, 240, 20);
+            border-radius: 14px; */
+            width:100%;
+            height:80%;
+            font-family: Verdana;
+            color:blue;
+            display: flex;
+            flex-direction: row;
+            margin-top:10%;
+        }
+        h2{
+            font-size: 4vh;
+            color: blue;
+            font-family:Helvetica;
+            text-align: center;
+    
+        }
+        h5{
+            color:azure;
+        }
+        p{
+            font-size: 3vh;
+            color:black;
+            
+        }
+            .curso1{
+                /* border:8px solid rgb(20, 20, 240);
+            border-radius: 10px; */
+            text-align: justify;
+            font-family:Tahoma;
+            padding-left:4% ;
+            padding-right: 4%;
+            /* margin-top: 10%; */
+
+            }
+                .precio{
+            /* border:8px solid rgb(20, 20, 240);
+            border-radius: 10px; */
+            background-color: blue;
+            text-align: justify;
+            font-family:Tahoma;
+            padding-left:4% ;
+            padding-right: 4%;
+                }
+    /* Estilos para el footer */
+.footer {
+    background-color:black;
+    padding: 20px;
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-evenly;
+    font-family:Verdana;
+  }
+  
+  
+  /* Estilos para la lista de íconos */
+  .social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  /* Estilos para los íconos */
+  .social-icons a {
+    color: #e4d0d0;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  /* Cambiar el color de los íconos al pasar el mouse sobre ellos */
+  .social-icons a:hover {
+    color: #aab2bb;
+  }
+  
+  
+
+  
