@@ -1,5 +1,10 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  
+  }
 .gridAreas{
-    height: 80vh;
+    height: 100vh;
     display: grid;
 
     grid-template-areas: 
@@ -11,7 +16,7 @@
 
 .child_a {
     grid-area: header;
-    height: 100px;
+    height: 250%;
     background-color: rgb(178, 44, 18);
     color: white;
     font-size: x-large;
@@ -32,13 +37,13 @@
     color: white;
     font-size: x-large;
     text-align: center;
-    height: 550px;
-
+    height: 100%;
     display: grid;
     grid-template-areas: 'hijo1' 
                           'hijo2';
     grid-template-rows:270px 270px; /* Define el número de filas y su tamaño */
-    grid-gap: 8px; /*Define el espacio entre las celdas */
+    grid-gap: 40px; /*Define el espacio entre las celdas*/
+    /* padding-top: 2%; */
 
     
        
@@ -48,7 +53,8 @@
         background-color: orangered;
         /* grid-row: auto; */
         border: 2px solid white;
-        margin:10px;
+        margin:25px;
+        height: 107%;
     }
     .hijo2 {
         grid-area:hijo2;
@@ -56,10 +62,9 @@
         border-color: white;
         /* grid-row:auto ; */
         border: 2px solid white;
-        margin:10px;
+        margin:25px;
+        height: 107%;
     }
-
-
 
 
 .child_c { 
@@ -69,7 +74,7 @@
     color: white;
     font-size: x-large;
     text-align: center;
-    height: 550px;
+    height: 100%;
     display: grid;
     grid-template-areas: 'aside1'
                          'aside2';
@@ -81,8 +86,8 @@
         background-color: white;
         /* grid-row:auto ; */
         color:orangered;
-        height: 130px;
-        margin:10px;
+        height: 80%;
+        margin:25px;
         
 
     }
@@ -91,15 +96,15 @@
         background-color: white;
         /* grid-row:auto ; */
         color:orangered;
-        height: 130px;
-        margin:10px;
+        height: 80%;
+        margin:25px;
         
     }
 
 
 .child_d { 
     grid-area: footer; 
-    height: 100px;
+    height: 100%;
     background-color: rgb(103, 44, 8);
     color: white;
     font-size: x-large;
