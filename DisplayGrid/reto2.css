@@ -1,0 +1,43 @@
+.gridContainer{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:1fr 0.5fr 1fr 1fr 0.5fr 1fr;
+    grid-template-rows: 5fr  3fr ;
+
+}
+    .grid_a{
+        background-color: rgba(158, 249, 31, 0.879);
+        color: black;
+        font-size: x-large;
+        text-align: center;
+    }
+    .grid_b {
+        background-color:black;
+        color: white;
+        font-size: x-large;
+        text-align: center;
+    }
+    .grid_c {
+        background-color: rgba(158, 249, 31, 0.879);
+        color: black;
+        font-size: x-large;
+        text-align: center;
+    }
+    .grid_d {
+        background-color:black;
+        color: white;
+        font-size: x-large;
+        text-align: center;
+    }
+    .grid_e {
+        background-color: rgba(158, 249, 31, 0.879);
+        color: black;
+        font-size: x-large;
+        text-align: center;
+    }
+    .grid_f {
+        background-color:black;
+        color: white;
+        font-size: x-large;
+        text-align: center;
+    }

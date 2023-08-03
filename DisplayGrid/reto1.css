@@ -1,0 +1,45 @@
+
+.gridContainer{
+    height: 80vh;
+    display: grid;
+    grid-template-columns:600px  300px 600px;
+    grid-template-rows: 375px 375px;
+    
+}
+
+.a{
+    background-color: rgb(158, 243, 12);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.b {
+    background-color:rgb(249, 178, 48);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.c {
+    background-color:orangered;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.d {
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.e {
+    background-color:blue;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.f {
+    background-color:rgb(243, 243, 108);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}

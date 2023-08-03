@@ -1,0 +1,108 @@
+.gridAreas{
+    height: 80vh;
+    display: grid;
+
+    grid-template-areas: 
+        'header header imagen'
+        'contenido menuLateral menuLateral '
+        'contenido menuLateral menuLateral'
+        'footer footer footer';
+}
+
+.child_a {
+    grid-area: header;
+    height: 100px;
+    background-color: rgb(178, 44, 18);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.imagen{
+    grid-area: imagen;
+    background-color: rgb(103, 44, 8);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+.child_b { 
+    grid-area: menuLateral; 
+    
+    background-color: orangered;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    height: 550px;
+
+    display: grid;
+    grid-template-areas: 'hijo1' 
+                          'hijo2';
+    grid-template-rows:270px 270px; /* Define el número de filas y su tamaño */
+    grid-gap: 8px; /*Define el espacio entre las celdas */
+
+    
+       
+}
+    .hijo1 {
+        grid-area:hijo1;
+        background-color: orangered;
+        /* grid-row: auto; */
+        border: 2px solid white;
+        margin:10px;
+    }
+    .hijo2 {
+        grid-area:hijo2;
+        background-color: orangered;
+        border-color: white;
+        /* grid-row:auto ; */
+        border: 2px solid white;
+        margin:10px;
+    }
+
+
+
+
+.child_c { 
+    grid-area: contenido; 
+
+    background-color: rgb(239, 114, 55);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    height: 550px;
+    display: grid;
+    grid-template-areas: 'aside1'
+                         'aside2';
+    /* grid-template-rows:400px 400px; */
+    grid-gap: 240px;
+}
+    .aside1{
+        grid-area:aside1;
+        background-color: white;
+        /* grid-row:auto ; */
+        color:orangered;
+        height: 130px;
+        margin:10px;
+        
+
+    }
+    .aside2{
+        grid-area:aside2;
+        background-color: white;
+        /* grid-row:auto ; */
+        color:orangered;
+        height: 130px;
+        margin:10px;
+        
+    }
+
+
+.child_d { 
+    grid-area: footer; 
+    height: 100px;
+    background-color: rgb(103, 44, 8);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    
+}
