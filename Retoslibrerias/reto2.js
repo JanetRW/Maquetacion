@@ -1,38 +1,39 @@
 $(document).ready(function() {
-    let carrito = [];
+    let miCarrito = [];
 
-    // Función para calcular el precio total de los productos en el carrito
+    // calcula el precio total de los productos en mi carrito
     function calcularTotal() {
       let total = 0;
-      carrito.forEach(producto => {
+      miCarrito.forEach(producto => {
         total += producto.price;
       });
       return total;
     }
 
-    // Función para actualizar el carrito
-    function actualizarCarritoModal() {
-      let carritoLista = $("#carritoLista");
+    // Función para actualizar mi carrito modal
+    function actualizar() {
+      let listaMiCarrito = $("#listaMiCarrito");
       let carritoTotal = $("#carritoTotal");
 
-      carritoLista.empty();
-      carrito.forEach(producto => {
-        carritoLista.append(`<li class="list-group-item">${producto.name} - ${producto.price}€</li>`);
+      listaMiCarrito.empty();
+      miCarrito.forEach(producto => {
+        listaMiCarrito.append(`<li class="list-group-item">PRENDA: ${producto.name} - ${producto.price}€</li>`);
       });
 
       carritoTotal.text(calcularTotal() + "€");
+      carritoTotal.css("color", "#d63384");
     }
 
-    // Evento para el botón "Añadir al carrito"
+    // uso evento para el botón "Añadir al carrito"
     $(".btn-primary").click(function() {
       let nombre = $(this).closest(".card-body").find(".card-title").text();
       let precio = parseFloat($(this).closest(".card-body").find(".card-price").text());
 
-      carrito.push({ name: nombre, price: precio });
-      actualizarCarritoModal();
+      miCarrito.push({ name: nombre, price: precio });
+      actualizar();
     });
 
-    // Evento para mostrar el carrito al hacer clic en el botón "Carrito"
+    // muestro el carrito al hacer clic en el botón "Carrito"
     $(".btn-secondary").click(function() {
       $("#carritoModal").modal("show");
     });
