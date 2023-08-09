@@ -356,6 +356,167 @@
         margin: 25px 0;
     }
 }
+@media screen and (max-width: 850px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   
+ 
+    .padre {
+        height:50%;
+        padding: 8px;
+    }
+    
+    .contenedores {
+        /* border:5px solid #e834e5;
+        border-radius: 14px; */
+        width: 100%;
+        height: 70vh; 
+        flex-direction: column;
+        margin: auto;
+    }
+  
+    .Imageninsta {
+        display: none; /* Oculta la imagen en dispositivos móviles */
+    }
+    
+    .textoinsta {
+        /* border:5px solid rgb(55, 46, 233);
+        border-radius: 14px; */
+        width: 100%;
+        height: 65vh;
+        margin-top: 1%;
+        font-size: 50%;
+        }
+    
+    .formulario {
+        border: none; /* Quita el borde en dispositivos móviles */
+        height: 65%; /* Ajusta la altura del formulario en dispositivos móviles */
+    }
+    .titulo{
+        /* border:5px solid rgb(99, 250, 169);
+                border-radius: 14px; */
+                height: 6vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 35px;
+                /*font-family: 'Lobster', cursive;
+                /*font-family: 'Satisfy', cursive;*/
+                font-family: 'Lobster';
+              
+    }
+    .form1 {
+        /* border:5px solid rgb(250, 245, 99);
+                border-radius: 14px; */
+        height: 38%;
+        margin-top: 2%;
+        padding: 15px;
+    }
+    
+    .user,
+    .password,
+ 
+    .Iniciar {
+        border: none; /* Quita el borde en dispositivos móviles */
+        height:4vh ;
+    }
+    .O{
+        font-size: x-small;
+        justify-content: center;
+    }
+    .Facebook {
+        /* border:5px solid rgb(250, 245, 99);
+                border-radius: 14px; */
+        height: auto;
+        margin-top: 8%;
+    }
+    .fb1 {
+       /* flex-direction: row; Cambia la dirección de los elementos en dispositivos móviles*/
+        align-items: center;
+    }
+    .espacio {
+       
+        margin: auto;
+        width:5%;
+        
+    }
+    
+    .imgFB {
+        /* border:5px solid rgb(250, 245, 99);
+                border-radius: 14px; */
+        width: 20px; 
+        height: 20px;
+        margin-right: 1%;
+    }
+   
+    .textoFB {
+        /* border:5px solid rgb(250, 245, 99);
+                border-radius: 14px;  */
+        width: 75%;
+        font-size: 14px; 
+        margin-left: 2%;
+    }
+    .fb2 {
+        height: auto; 
+        padding: 10px; 
+        font-size: small;
+    }
+    
+    .registrarse {
+        border: none; 
+        height: auto; 
+        padding: 10px;
+        font-size: medium;
+        margin-top: 18%;
+    }
+    .descargas {
+        /* border:5px solid rgb(250, 245, 99);
+        border-radius: 14px; */
+        padding: 10px;
+        height: auto;
+        margin-bottom: 5%;
+        font-size: small;
+        margin-top: 20%;
+    }
+    
+    .apple,
+    .google {
+        width: 40%; 
+        height: 5vh; 
+    }
+    
+    .Footer {
+        /* border:5px solid rgb(250, 245, 99);
+        border-radius: 14px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 25%;
+       
+    }
+
+    .footer1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .footer1 a {
+        display: block;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    .footer2 {
+        margin: 25px 0;
+    }
+}
     
 
 
